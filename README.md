@@ -1,6 +1,6 @@
 # SimpleRAG
 A simple LLM RAG python notebook leveraging open source llm models on a FAQ doc leveraging Sagemaker
-Two notebooks:
+# Two notebooks:
 01-deploy-text-embedding-model.ipynb - Deploy Text Embedding Model (GPT-J 6B FP-16) on ml.g4dn.2xlarge. This model will be used to generate a numerical representation of the textual documents.
 02-km-question-answering-rag.ipynb - Three key components
 1. LLM (Large Language Model): Llama-2-7b model will be used to understand the document chunks and provide an answer in human friendly manner.
