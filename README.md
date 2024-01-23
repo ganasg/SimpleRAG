@@ -11,4 +11,5 @@ A simple LLM RAG python notebook leveraging open source llm models on a FAQ doc 
    c. Index: VectorIndex The index helps to compare the input embedding and the document embeddings to find relevant document
 
 Make the following changes to have this notebook work on your document of interest 
-create a folder in home directory as src_doc and your text file. Update the name of the text file inside "02-km-question-answering-rag.ipynb". Good to go!
+1. create a folder in home directory as src_doc and your text file. 
+2. Update the name of the text file inside "02-km-question-answering-rag.ipynb". Good to go!
