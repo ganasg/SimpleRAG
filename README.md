@@ -6,7 +6,7 @@ A simple LLM RAG python notebook leveraging open source llm models on a FAQ doc 
 
    a. LLM (Large Language Model): Llama-2-7b model will be used to understand the document chunks and provide an answer in human friendly manner.
 
-   b. Vector Store: FAISS available through LangChainIn this notebook we are using this in-memory vector-store to store both the embeddings and the documents. In an enterprise context this could be replaced with a persistent store such as AWS OpenSearch, RDS Postgres with pgVector, ChromaDB, Pinecone or Weaviate.
+   b. Vector Store: FAISS available through LangChainIn this notebook we are using this in-memory vector-store to store both the embeddings and the documents. 
 
    c. Index: VectorIndex The index helps to compare the input embedding and the document embeddings to find relevant document
 
